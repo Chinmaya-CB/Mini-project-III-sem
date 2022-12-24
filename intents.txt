@@ -1,0 +1,316 @@
+{
+   "intents":[
+      	{
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for asking",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ]
+      	},
+      	{
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ]
+      	},
+      	{
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ]
+      	},
+      	{
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            "I can update you everything about NHCE, about the location, about the managing directories, about the facilities offered, about the courses available,recuriters, exams etc..Please feel free to ask"
+         ]
+      	},
+      	{
+         "tag":"about",
+         "patterns":[
+            "What can I know about NHCE",
+            "What is NHCE"
+         ],
+         "responses":[
+            "New Horizon College of Engineering is an autonomous college affiliated to Visvesvarayya Technological University (VTU), approved by the All India Council for Technical Education (AICTE) & UBC. It is accredited by ’NAAC’ with ‘A’ grade. All UG courses are accredited by the National Board of Accredition (NBA)."
+         ]
+      	},
+      	{
+         "tag":"man_direc",
+         "patterns":[
+            "principal",
+            "managing directories"
+         ],
+         "responses":[
+            "Chairman- Dr.Mohan Manghanani\nPrincipal- Dr.Manjunatha"]
+      	},
+      	{
+         "tag":"location",
+         "patterns":[
+            "Where is nhce located",
+            "Location"
+         ],
+         "responses":[
+            "NHCE is located in Bellandur Main Road, Near Marathhalli, Bengaluru – 560103\nYou can also contact us on - 9880534935"]
+        },
+        {
+	 "tag": "courses",
+         "patterns": ["courses I can pursue", "available courses"],
+         "responses": ["We provide a Bachelor in Technology (B.Tech) degree in various courses\n1.Automoblie Engineering\n2. Civil Engineering \n3. Computer Science and Engineering \n4. Computer Engineering \n5.Artifical Intelligence and Machine Learning Engineering \n6.Electrical and Electronice Engineering \n7.Electronics and Communication Engineering \n8.Information Science and Engineering 9. Mechanical Engineering.\n You can type any course name to get information regarding that course.\nWe also provide the Masters in Technology (M.Tech) degree in the below courses \n1. Computer Science and Engineering \n2.Machine Design\n3.Cyber Forensic and Information Security.\n You can pursue various other commerce courses other than B.Tech and M.Tech like B.Com, BBA, BCA, MBA and MCA.\nWe also provide Ph.D and M.Sc (Engg programs)."]
+        },
+        {
+	 "tag": "eleg_crit",
+         "patterns": ["criteria to be eligible”, ”qualifications required"],
+         "responses": ["You should have passed 2nd puc/12th std from the Karnataka board or any other recognised board .\n An aggregate of 45% marks in each of the above and any of the following subjects:Chemistry/Biology/Biotechonlogy/Computers/Electronics."]
+        },
+        {
+	 "tag": "duration",
+         "patterns": ["duration of the course", "get graduated"],
+         "responses": ["The duration of the B.E. course shall be four academic years and conducted in 8 semesters, with each semester having a duration of 16 weeks."]
+        },
+        {
+	 "tag": "exam",
+         "patterns": ["procedure of exams", "how exams are conducted"],
+         "responses": ["Examinations\nEqual weight-age is accorded to both internal and final exams. Both the internal and the Final exams are conducted by the college\nMake-up Examination Students who fail to attend the final examination due to justifiable reasons have a provision to take the ‘Make Up Examination’ immediately after the semester results are declared. This feature of autonomy is extremely beneficial to students since they can clear their back-logs immediately rather than carry it forward to the next year.\nFast Track Semester & Examination\nThis facility is provided to assist slow-learners and students who have failed in one or more subjects to help them avoid losing one entire academic year. Fast Track classes are conducted and Examination is held at the end of each academic year."]
+        },
+        {
+	 "tag": "internship",
+         "patterns": ["What are internships??", "What do you mean by internships??"],
+         "responses": ["You are provided with multiple opportunities to intern at various industries and MNC R&D Laboratories, during the vacation to groom you for the industry"]
+        },
+        {
+	 "tag": "scholoarship",
+         "patterns": ["scholarships", "fee reduction"],
+         "responses": ["We provide exclusive scholarships for every category of students. The categories are as follows\nAcademic Scholarship, Sports Scholarship, Chairman's Scholarship, Sindhi Scholarship.\nWe also provide waivance of fee for the topper of every programme.\nWe also support government scholarships.\nYou can contact the office for further details."]
+      	},
+      {
+         "tag":"automobile",
+         "patterns":[
+            "automobile",
+            "automobile engineering"
+         ],
+         "responses":[
+            "Automobile Engineering Course Overwiew:\n Vehicle body Engineering and Safety, Earth Moving Equipments and Tractors Automobile Chassis and suspension, Automotive Transmission, Mechanical Vibration & Vehicle Dynamics, Automotive Engines, Automotive Fuels and Combution, Auto Electrical and Electronic Systems, Autotronics, Automotive Air Pollution and Control\n"
+         ]
+      },
+      {
+         "tag":"civil",
+         "patterns":[
+            "civil",
+            "civil engineering"
+         ],
+         "responses":[
+            "Civil Engineering Course Overwiew:\n Remote Sensing and Digital Photogrammetry, Building Materials & Construction Technology, Fluid mechanics, Hydraulics & Hydraulic machines, Surveying, Concrete Technology, Applied Engg. Geology, Estimation & Valuation, Structural Engineering, Computer Aided Engineering, Geotechnical Engineering, Transportation Engineering, Environmental Engineering, Computer Aided Design and Drawing, Geographical Information System & GPS, Water resources and Irrigation Engineering Construction Engineering and Management "
+         ]
+      },
+      {
+         "tag":"cse",
+         "patterns":[
+            "cse",
+            "computer science and engineering",
+            "computer science"
+         ],
+         "responses":[
+            "The department of Computer Science and Engineering offers courses which are in keeping with the current trends in technology. Some of the courses that are offered are in Machine Learning, Big Data & Data Analytics. A.I. Unix System Programming, UIS, Cloud Computing, Java along with Fundamental core courses like Object Oriented concepts, ARM Microprocessors & Compute organization, Operating System, System Software, Networking, Python with machine learning, Data mining, Internet of Things, Soft Computing etc "
+         ]
+      },
+      {
+         "tag":"comp",
+         "patterns":[
+            "computer",
+            "computer engineering"
+         ],
+         "responses":[
+            "The department of Computer Engineering offers courses which are in keeping with the current trends in technology. Some of the courses that are offered are in Machine Learning, Big Data & Data Analytics. A.I. Unix System Programming, UIS, Cloud Computing, Java along with Fundamental core courses like Object Oriented concepts, ARM Microprocessors & Compute organization, Operating System, System Software, Networking, Python with machine learning, Data mining, Internet of Things, Soft Computing etc "
+         ]
+      },
+      {
+         "tag":"aiml",
+         "patterns":[
+            "aiml",
+            "artificial",
+            "artificial intelligence",
+            "artificial intelligence and machine learning",
+            "machine learning"
+         ],
+         "responses":[
+            "The department of Artificial Intelligence and Machine Learning Engineering offers courses which are in keeping with the current trends in technology. Some of the courses that are offered are in Machine Learning, Big Data & Data Analytics. A.I. Unix System Programming, UIS, Cloud Computing, Java along with Fundamental core courses like Object Oriented concepts, ARM Microprocessors & Compute organization, Operating System, System Software, Networking, Python with machine learning, Data mining, Internet of Things, Soft Computing etc "
+         ]
+      },
+      {
+         "tag":"eee",
+         "patterns":[
+            "eee",
+            "electrical",
+            "electrical and electronics"
+         ],
+         "responses":[
+            "Electrical and Electronics Engineering Course Overwiew:\nNetwork Analysis, Electronics Circuits, Electrical Machines, Power Electronics, Electric Drives & Hybrid Vehicles, VLSI Design, Control and Instrumentation, Power Systems, Relay and High Voltage Engineering, Renewable Energy Sources, Smart Grid, Embedded Systems, Special Electrical Machines, Software simulation tools, IoT and Building Automation, Object Oriented Programming"
+         ]
+      },
+      {
+         "tag":"ece",
+         "patterns":[
+            "ece",
+            "electronics and communication"
+         ],
+         "responses":[
+            "Electronics and Communication Engineering Course Overwiew:\n Electronic Circuits, Signal & Systems, Microcontrollers, Analog & Digital Communication Microelectronic Circuits, VLSI Design, Embedded Systems, Routing & Switching (CISCO certified), Image Processing, Network Security, Industrial Internet of Things, Machine Learning, Antennas & Wave Propagation, Microwave & RADAR, Digital Signal Processing "
+         ]
+      },
+      {
+         "tag":"ise",
+         "patterns":[
+            "ise",
+            "information science"
+         ],
+         "responses":[
+            "The curriculum of Information Science and Engineering sensitize the students from third shidents, SBI Bank semester onwards path he/she can Follow and towards the probable excel accordingly. Career path proposed through curriculum:\nData Science Engineers-Advanced Artificial Intelligence-Network Engineers-scope for higher studies Software Development Engineers -Advanced Artificial Intelligence Scope for Higher Studies "
+         ]
+      },
+      {
+         "tag":"mech",
+         "patterns":[
+            "mech",
+            "mechanical"
+         ],
+         "responses":[
+            "Mechanical Engineering Course Overwiew:\n Manufacturing engineering, Vibration and control engineering, Hydraulics & Pneumatics, Mechatronics & Robotics,  Finite element analysis, Management & Entrepreneurship, Drafting, CAD & CAM, Robotics, Mathematics, Metallurgy. Basic physical science, Thermodynamics, Statics and Dynamics, Mechanical Vibrations, Mechanics of Materials, Material science, Finite Element Analysis, Design of Machine Element, Heat transfer, Energy conversion, Fuels, combustion, IC engine, TOM, Mechanism and machine design, Instrumentation and measurement "
+         ]
+      },
+	{
+         "tag":"website",
+         "patterns":[
+            "website",
+            "link"
+         ],
+         "responses":[
+            "This is our website - https://newhorizonindia.edu/nhengineering. You can also send a e-mail at admissionsnhce@newhorizonindia.edu"]
+        },
+	{
+         "tag":"bus_facility",
+         "patterns":[
+            "bus",
+            "transport"
+         ],
+         "responses":[
+            "We do provide the bus facility to students at a reasonable price. We also have alloted parking spaces in the college to accomodate students coming in private mode of transport."]
+        },
+	{
+         "tag":"timings",
+         "patterns":[
+            "timings",
+            "classes"
+         ],
+         "responses":[
+            "The college will be a full working day from Monday to Saturday.The classes at NHCE begin at 9:00 a.m. everyday. The classes go on till 3:50 for first year students and 4:50 for the remaining students."]
+        },
+      	{
+         "tag":"nhce_facilities",
+         "patterns":[
+            "facilities available",
+            "features available"
+         ],
+         "responses":[
+            "These are the facilities provided by  NHCE:\nWIFI Campus\nLecture Halls\nAuditorium\nSeminar Halls\nWell Equipped Laboratories\nCafeterias\nMedical facility\nAmbulance Service\nRO drinking water\nUtility Centre\nRound the clock security\nBook store & stationery shop\nBank & ATM\nTransport Facility\nIndoor Stadium\nOutdoor gym\nIndoor gym\nSports Ground\nParking Facility"]
+        },
+	{
+	 "tag": "hostel_facilities",
+         "patterns": ["hostel facilities", "hostel features"],
+         "responses": ["These are the facilities provided for you in the hostel\nFive Separate hostel buildings for girls and boys on campus\nWi-Fi in hostel blocks\n24 hours power back up\nHygienic kitchen & quality food - Vegetarian & Non-vegetarian Menu\nMedical insurance\nWell furnished rooms\nLaundry facility\nSingle room Facility (Boy's Hostel) For PG students\nExperienced resident warden in each hostel\nVery well trained security\n24 hours ambulance facility"]
+        },
+	{
+	 "tag": "training",
+         "patterns": ["extra training"],
+         "responses": ["We provide the below training programmes for students\n Basic English Communication, Aptitude development, Personality, attitude & behavioural development, Technical/Domain skills, Quality policy, Life skills etc."]
+        },
+	{
+	 "tag": "placements",
+         "patterns": ["What is placement??", "Clarifications regarding placement"],
+         "responses": ["100% PLACEMENT OPPORTUNITIES ARE PROVIDED TO ALL STUDENTS PURSUING B.Tech and M.Tech. The required skills, beyond academic curriculum are imparted to all our students.\nNHCE has a focused Human Resource Development (HRD) Department which is created to move from this traditional Training and Placement process."]
+      	},
+	{
+	 "tag": "ind_lab_exc",
+         "patterns": ["industry sponsored labs","centres of excellence"],
+         "responses": ["There are many Industry Sponsored labs/centres of excellence in NHCE namely – Indo-French Centre of Excellence, CISCO Networking Academy, SAP Next-gen lab, QuEST Global IIoT Centre of Excellence, Vertica Centre of Excellence, IBM centre of excellence, VMWare Centre of Excellence, Capgemini’s lab, RPA centre of excellence."]
+       },
+	{
+         "tag":"club",
+         "patterns":[
+            "clubs",
+            "student club",
+            "clubs in nhce"
+         ],
+         "responses":[
+            "Here are the clubs and to which departments it belongs to\n Automobile Engineering (AE)\nAuto-Maniacs Club (AMC), Society of Automotive Engineers Club (SAE)\nElectronics& Communication Engineering (ECE), Technology Sharing Club (TSC), Electronics Hobby Club (EHC), Professional Connect Club (PCC)\nElectrical & Electronics Engineering (EEE)\nGreen Energy Club (GEC), E-Soft Club (ESC)\nMechanical Engineering (ME)\nMecHorizon Club (MHC), RoboHorizon Club (RHC), RoboHorizon Club (RHC)\nMaster of Computer Applications (MCA)\nFOSS - Free Open Source Software Club, EDAP - e-Designing and Publishing Club, Adobe Creative Tech Clubs (ACT)\nMaster of Business Administration (MBA)\nEntrepreneurship Development Club (Idea Lounge), Acumen Club\nEXTRA CURRICULAR CLUBS\nDance Club, Music Club, Art Club,  Literary Club, Photography Club, NSS Club,  Socio-Political Club • Adventure Club, Fitness Club, Media Club, Fashion Club, Leo Club, Green Warriors Club, Rotract Club\nBasic Science & Humanities (BSH)\nGenesis Club (Science Club), Math Horizon Club (Mathematics Club) \nBioTechnology (BT)\nBlozone Club, Bioblooms Club \nCivil Engineering (CIV)\nAvishkar Club, Prakruthi Club\nComputer Science Engineering (CSE)\nAdvanced. Contemporary and EmergingTechnologies Club (ACE), Business and Information Technology Club (BIT)\nInformation Science Engineering (ISE)\ni-STUDENTS WORKING ON EMERGING TECHNOLOGY Club (i-SWET(G)), i-Student Club for Research Utilizing Meta Knowledge Club (i- SCRUM), i-Cyber security & Ethical Hacking Club (i-CSEH), VMware International IT Academy, New Horizon open source Technology Enthusiasists Club (NOTE)\nSPORTS CLUBS\nVolleyball Club, Basketball Club, Badminton Club, Kabaddi Club, Football Club"
+         ]
+      	},
+	{
+   	  "tag":"cafe",
+   	  "patterns":[
+      	     "cafe",
+	     "canteen",
+             "cafeteria",
+             "Does the college contain a hotel?",
+             "hotel"
+         ],
+         "responses":[
+            "We do provide a college cafeteria, which is spacious, clean and hygienic, offering a variety of North/South Indian and Chinese cuisine."
+   	]
+	},
+     	{
+         "tag":"recruit",
+         "patterns":[
+            "Which are the company that come for placements??",
+            "Recruiting companies in nhce",
+            "Companies",
+            "Recruiters"
+         ],
+         "responses":["Here are some of our Recruiters:\nAccenture, Amazon, Bajaj Capital Ltd., Sony India, Toyota, Unisys, Wipro Ltd., Capgemini, Cognizant, Oracle, Samsung R&D, SAP labs, Schneinder electric, Epsilon, Flipkart, Infosys, Manhattan Associates."]
+      },
+      {
+      	  "tag":"library",
+          "patterns":[
+             "Specialities of library",
+             "library"
+         ],
+         "responses":["Here are some of the features of NHCE library:\nReference Section\nE-Learning Center\nOpen 24hrs 365 days\nState of art Digital Library\nStudents discussion rooms\nOver 46,505 volumes of latest books\nOnline class room with recording facility\nRemote Access of subscribed Electronic Resources\nNational and International print and online Journals"]
+      }
+      
+]
+}
